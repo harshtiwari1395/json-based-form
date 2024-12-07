@@ -18,6 +18,6 @@ The "renderFormFromJson" function is used for rendering various input componets 
 
 This is a rudimentary implementation without attention to CSS.
 
-On varyinh any field, you will be able to see its value logged out in onsole with the field key. This is coming from state updates.
+On varying any field, you will be able to see its value logged out in console with the field key. This is coming from state updates.
 
 This logic can be added to specific requirements for making any kind of forms.
