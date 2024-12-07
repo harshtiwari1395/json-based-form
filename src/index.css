@@ -1,0 +1,118 @@
+.container{
+  background-color: antiquewhite;
+  width: 100%;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Specific styles for different input types */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+select {
+  appearance: none; /* To hide default browser styling */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="password"] {
+  /* General styles */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+  /* Password-specific styles */
+  font-family: monospace; /* Optional: For a more secure look */
+  letter-spacing: 2px; /* Optional: For increased security */
+}
+
+
+.input[type="radio"]{
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  transform: translateY(-50%);
+}
+
+.input[type="radio"]:checked + label:before {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  margin-left: 10px;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+
+
+
+button{
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  margin-left: 10px;
+}
+
