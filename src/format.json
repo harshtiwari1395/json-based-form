@@ -276,7 +276,32 @@
         "moved": false,
         "static": false,
         "label": "QR Code Type"
+      },
+      {
+        "y": 7,
+        "x": 0,
+        "w": 4,
+        "h": 1,
+        "i": 152062121,
+        "id": 152062121,
+        "elementType": "file",
+        "fieldType": null,
+        "placeholder": "File Picker",
+        "required": "true",
+        "edit": true,
+        "multiSelect": false,
+        "VAxis": false,
+        "minChoices": null,
+        "maxChoices": null,
+        "choices": [],
+        "fieldName": "File Picker",
+        "date": null,
+        "accessablity": [],
+        "moved": false,
+        "static": false,
+        "label": "Text Type"
       }
+
     ]
   }
   

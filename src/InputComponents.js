@@ -1,5 +1,5 @@
 export const TextDateInputComponent= ({item, handleChange})=>{
-    return           <div
+    return <div
     className="form-group"
     style={{
       position: "absolute",
